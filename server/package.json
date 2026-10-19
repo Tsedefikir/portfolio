@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "Express + SQL backend for the Full-Stack Web Developer portfolio (projects API and contact form).",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "portfolio",
+    "rest-api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
